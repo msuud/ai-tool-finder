@@ -1,0 +1,6 @@
+.bg-image {
+  background-image: url("../../assets/ai-home-page.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the height of the container to viewport height */
+}
