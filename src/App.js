@@ -1,11 +1,18 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import HomePage from "./components/HomePage/HomePage";
+import CustomNavbar from "./components/CustomNavbar/CustomNavbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="container text-white ml-0">
-      <p className="h1">hello world </p>
-      <p>this is a line</p>
-    </div>
+    <BrowserRouter>
+      <CustomNavbar />
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
