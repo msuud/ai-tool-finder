@@ -1,5 +1,7 @@
 .bg-image {
-  background-image: url("../../assets/ai-home-page.jpg");
+  background-image: url("../../assets/ai-homepage-img.png");
+  opacity: 0.5;
+  background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
   height: 100vh; /* Set the height of the container to viewport height */
