@@ -1,7 +1,7 @@
 const Footer = () => {
    return (
       <div>
-         <div className="container-fluid text-white p-5 bg-secondary">
+         <div className="container-fluid text-white p-5 ">
             <div className="row">
                <div className="col text-center d-flex flex-column">
                   <div className="h3">brand name</div>
@@ -30,7 +30,7 @@ const Footer = () => {
                </div>
             </div>
          </div>
-         <div className="container-fluid text-center bg-black p-3">
+         <div className="container-fluid text-center bg-black p-3 text-white">
          Copyright © All Rights Reserved by NexGen AI Technologies Team.
          </div>
       </div>
