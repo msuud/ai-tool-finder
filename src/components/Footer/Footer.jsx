@@ -82,8 +82,6 @@ const Footer = () => {
                 AI Tools Category
               </a>
             </div>
-          </div>
-          <div className="col text-center d-flex flex-column pt-5">
             <div className="p-2">
               <a className="link-opacity-50-hover " href="#">
                 About Us
