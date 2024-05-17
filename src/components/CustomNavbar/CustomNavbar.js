@@ -1,33 +1,33 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
 import Logo from "../../assets/logo.jpg";
+import "./CustomNavbar.css";
 
 const CustomNavbar = () => {
   return (
-    <nav class="navbar navbar-expand-sm bg-black opacity-10">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src={Logo} style={{ width: "50px" }} class="rounded-pill"></img>
+    <nav className="custom-navbar">
+      <div className="container">
+        <a className="navbar-brand" href="#">
+          <img src={Logo} alt="Logo" className="brand-logo" />
         </a>
-        <ul class="navbar-nav" style={{ marginLeft: "auto" }}>
-          <li class="nav-item">
-            <a class="nav-link text-white pe-5" href="#">
-              Home
+        <ul className="navbar-nav"> 
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              HOME
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link text-white pe-5" href="#">
-              AI Tools
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              AI TOOLS
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link text-white pe-5" href="#">
-              Blog
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              BLOG
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link text-white pe-5" href="#">
-              Login
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              LOGIN
             </a>
           </li>
         </ul>
