@@ -3,7 +3,6 @@ import Logo from "../../assets/logo.jpg";
 import "./CustomNavbar.css";
 import { Link } from "react-router-dom";
 
-
 const CustomNavbar = () => {
   return (
     <nav className="custom-navbar">
@@ -28,9 +27,9 @@ const CustomNavbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="Login.html">
+            <Link className="nav-link" to="/login">
               LOGIN
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

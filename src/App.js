@@ -3,7 +3,7 @@ import "./App.css";
 import HomePage from "./components/HomePage/HomePage";
 import CustomNavbar from "./components/CustomNavbar/CustomNavbar";
 import Footer from "./components/Footer/Footer";
-import Tool_card from "./components/Tool_card/Tool_card";
+import LoginPage from "./components/LoginPage/LoginPage";
 import Tool_card_section from "./components/Tool_card/Tool_card_section";
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/tool" element={<Tool_card_section />}></Route>
+        <Route path="/login" element={<LoginPage />}></Route>
       </Routes>
 
       <Footer />
