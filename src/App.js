@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage/HomePage";
 import CustomNavbar from "./components/CustomNavbar/CustomNavbar";
 import Footer from "./components/Footer/Footer";
 
+
 function App() {
   return (
     <BrowserRouter>
