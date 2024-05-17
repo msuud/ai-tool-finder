@@ -6,7 +6,6 @@ import Footer from "./components/Footer/Footer";
 import Tool_card from "./components/Tool_card/Tool_card";
 import Tool_card_section from "./components/Tool_card/Tool_card_section";
 
-
 function App() {
   return (
     <BrowserRouter>
@@ -14,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
       </Routes>
-      <Tool_card_section />
+      {/* <Tool_card_section /> */}
       <Footer />
     </BrowserRouter>
   );
