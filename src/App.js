@@ -13,11 +13,12 @@ function App() {
       <CustomNavbar />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
+        <Route path="/tool" element={<Tool_card_section />}></Route>
       </Routes>
-      <Tool_card_section />
+      
       <Footer />
     </BrowserRouter>
   );
 }
-
+ 
 export default App;
