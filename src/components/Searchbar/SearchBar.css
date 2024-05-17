@@ -1,63 +1,57 @@
 /* Styles for the search container */
 .search {
-    margin-bottom: auto;
-    margin-top: auto;
-    height: 70px;
-    background-color: #fff;
-    border-radius: 40px;
-    padding: 10px;
-  }
-  
-  .search_input {
-    color: rgb(0, 0, 0); /* Sets the text color to yellow */
-    border: 0;
-    outline: 0;
-    background: none;
-    width: 0;
-    margin-top: 5px;
-    caret-color: transparent;
-    line-height: 40px;
-    transition: width 0.4s linear;
-  }
-  
-  .search .search_input {
-    padding: 0 10px;
-    width: 550px;
-    caret-color: red;
-    transition: width 0.4s linear;
-  }
-  
-  .search_input::placeholder {
-    color: rgba(0, 0, 0, 0.7); /* Placeholder color in semi-transparent yellow */
-  }
-  
-  .search:hover > .search_icon {
-    background: rgb(21, 17, 17);
-    color: #fff;
-  }
-  
-  .search_icon {
-    height: 50px;
-    width: 50px;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color: white;
-    background-color: black;
-  }
-  
-  .search_icon svg {
-    fill: rgb(255, 255, 255); /* Sets the SVG icon color to yellow */
-  }
-  
-  a:link {
-    text-decoration: none;
-  }
-  
-  /* New class for the dark text color */
-  .dark-text {
-    color: #ffffff; /* Dark color for the text */
-  }
-  
+  height: 70px;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 10px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.d-flex {
+  justify-content: center;
+}
+
+.search_input {
+  color: white; /* Sets the text color to yellow */
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-top: 5px;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+
+.search .search_input {
+  padding: 0 10px;
+  width: 550px;
+  caret-color: red;
+  transition: width 0.4s linear;
+}
+
+.search:hover > .search_icon {
+  background: rgb(21, 17, 17);
+  color: #fff;
+}
+
+.search_icon {
+  height: 50px;
+  width: 50px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
