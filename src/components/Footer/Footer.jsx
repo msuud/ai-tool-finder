@@ -1,17 +1,28 @@
+import Logo from "../../assets/logo.jpg";
 const Footer = () => {
   return (
     <div>
       <div className="container-fluid text-white p-5 bg-black">
-        <div className="row">
-          <div
-            className="col text-center d-flex flex-column"
-            style={{
-              background: "linear-gradient(to right, #00093c, #2d0b00)",
-              padding: "7px",
-              borderRadius: "10px",
-            }}
-          >
-            <div className="h3">AI TOOL FINDER</div>
+        <div
+          className="row"
+          style={{
+            background: "linear-gradient(to right, #00093c, #2d0b00)",
+            padding: "7px",
+            borderRadius: "10px",
+          }}
+        >
+          <div className="col text-center d-flex flex-column">
+            <div className="h3">
+              <img
+                src={Logo}
+                style={{
+                  width: "50px",
+                  borderRadius: "80%",
+                  padding: "5px",
+                }}
+              ></img>
+              AI TOOL FINDER
+            </div>
             <div className="display-10 p-2">
               AI TOOL FINDER is a website dedicated to providing a comprehensive
               list of AI tools to assist individuals and businesses in finding
@@ -68,27 +79,27 @@ const Footer = () => {
           <div className="col text-center d-flex flex-column">
             <div className="h3">Useful links</div>
             <div className="p-2">
-              <a className="link-opacity-50-hover " href="#">
+              <a className="link-opacity-50-hover text-info" href="#">
                 Home
               </a>
             </div>
             <div className="p-2">
-              <a className="link-opacity-50-hover " href="#">
+              <a className="link-opacity-50-hover text-info" href="#">
                 Blog
               </a>
             </div>
             <div className="p-2">
-              <a className="link-opacity-50-hover " href="#">
+              <a className="link-opacity-50-hover text-info" href="#">
                 AI Tools Category
               </a>
             </div>
             <div className="p-2">
-              <a className="link-opacity-50-hover " href="#">
+              <a className="link-opacity-50-hover text-info" href="#">
                 About Us
               </a>
             </div>
             <div className="p-2">
-              <a className="link-opacity-50-hover " href="#">
+              <a className="link-opacity-50-hover text-info" href="#">
                 Contact Us
               </a>
             </div>

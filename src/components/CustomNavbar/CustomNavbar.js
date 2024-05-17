@@ -11,7 +11,7 @@ const CustomNavbar = () => {
         <a className="navbar-brand" href="#">
           <img src={Logo} alt="Logo" className="brand-logo" />
         </a>
-        <ul className="navbar-nav"> 
+        <ul className="navbar-nav">
           <li className="nav-item">
             <Link className="nav-link" to="/">
               HOME
